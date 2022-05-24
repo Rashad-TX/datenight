@@ -161,12 +161,7 @@ export const dates = [
         image: "/assets/dogpark.jpg",
         
     },
-    {
-        id: 27,
-        name:"Double Date",
-        image: "/assets/doubledate.jpg",
-        
-    },
+   
     {
         id: 28,
         name: "Drive In",

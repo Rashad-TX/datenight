@@ -1,16 +1,16 @@
 .myNavbar{
     height: 10rem;
     background: lightblue;
-height: 12rem;
+    height: 12rem;
 }
 
-
-
-.btn-cntr{
-    display:flex;
+.module-cntr{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
     justify-content: center;
-    margin-top: 3rem;
-
+    gap:2rem;
+   
 }
 
 .date-btn{
@@ -22,22 +22,59 @@ height: 12rem;
    
 }
 
-.name-cntr{
-    display: flex;
+.party-btn-cntr{
+    display:flex;
     justify-content: center;
+}
+
+.name-cntr{
+    display:flex;
+    justify-content: center;
+}
+
+.party-name-cntr{
+    display:flex;
+    justify-content: center;
+}
+
+.style-name-cntr{
+    display:flex;
+    justify-content: center;
+}
+
+.style-btn-cntr{
+    display:flex;
+    justify-content: center;
+}
+
+.btn-cntr{
+  display: flex;
+  justify-content: center;  
+}
+
+.party-date-btn{
+    background: maroon;
+    width: 10rem;
+    font-size: 1.5rem;
+    color: white;
+    border: 0.5rem solid lightblue;
     
 }
+
+.style-date-btn{
+    background: maroon;
+    width: 10rem;
+    font-size: 1.5rem;
+    color: white;
+    border: 0.5rem solid lightblue;
+   
+}
+
 
 .result-name{
     font-size: 1rem;
 }
 
-.res-img-cntr{
-    display: flex;
-    justify-content: center;
-   
-   
-}
 
 .result-image{
     border: 1.5rem solid  lightblue;
@@ -46,4 +83,10 @@ height: 12rem;
 .span-txt{
     font-family: brush script mt;
     font-size: 2rem ;
+}
+
+.module-cntr{
+    display: flex;
+    flex-direction: row;
+    
 }
